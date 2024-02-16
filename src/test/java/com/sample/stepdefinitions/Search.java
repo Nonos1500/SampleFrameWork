@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class Search extends BasePage {
 
-    @Given("User is on Zillow home page")
+    @Given("User is on Redfin home page")
     public void user_is_on_zillow_home_page() {
 
         Driver.getDriver().get(ConfigurationReader.getProperty("zillow"));
